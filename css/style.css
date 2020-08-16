@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: darkslategray;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+a {
+  color: navy;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+a:visited {
+  color: purple;
+}
+h1,
+h2,
+h3 {
+  color: navy;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 2rem;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 0 auto 1.5 0;
+  text-align: left;
+}
+
+img {
+  margin: 20px auto;
+  max-width: 100%;
+  padding: 0px;
+  width: 600px;
+}
+p {
+  margin: 0 auto 1.5rem auto;
+}
+ul {
+  list-style: none;
+}
+
+.bio {
+  margin: auto;
+  max-width: 600px;
+  padding: 0 0 100px 0;
+}
+.main {
+  background-color: lightgray;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.left {
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1.8rem;
+  max-width: 60%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #bbb;
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer li {
+  float: left;
+  margin-bottom: 2rem;
+  width: 200px;
+}
+.main li {
+  float: left;
+  margin-right: 36px;
+  width: 36px;
+}
+.social-media {
+  max-width: 600px;
+  margin: 1.5rem auto;
+}
+
+.social-media img {
+  filter: grayscale(100%);
+ 
+#copyright {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.8;
+}
